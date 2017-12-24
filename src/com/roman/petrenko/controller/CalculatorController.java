@@ -36,52 +36,52 @@ public class CalculatorController {
                     e1.printStackTrace();
                 }
             }
-            if (e.getSource() == theView.b1) {
+            if (e.getSource().equals(theView.b1)) {
                 sb.append("1");
             }
-            if (e.getSource() == theView.b2) {
+            if (e.getSource().equals(theView.b2)) {
                 sb.append("2");
             }
-            if (e.getSource() == theView.b3) {
+            if (e.getSource().equals(theView.b3)) {
                 sb.append("3");
             }
-            if (e.getSource() == theView.b4) {
+            if (e.getSource().equals(theView.b4)) {
                 sb.append("4");
             }
-            if (e.getSource() == theView.b5) {
+            if (e.getSource().equals(theView.b5)) {
                 sb.append("5");
             }
-            if (e.getSource() == theView.b6) {
+            if (e.getSource().equals(theView.b6)) {
                 sb.append("6");
             }
-            if (e.getSource() == theView.b7) {
+            if (e.getSource().equals(theView.b7)) {
                 sb.append("7");
             }
-            if (e.getSource() == theView.b8) {
+            if (e.getSource().equals(theView.b8)) {
                 sb.append("8");
             }
-            if (e.getSource() == theView.b9) {
+            if (e.getSource().equals(theView.b9)) {
                 sb.append("9");
             }
-            if (e.getSource() == theView.b0) {
+            if (e.getSource().equals(theView.b0)) {
                 sb.append("0");
             }
-            if (e.getSource() == theView.bdiv) {
+            if (e.getSource().equals(theView.bdiv)) {
                 sb.append("/");
             }
-            if (e.getSource() == theView.bmul) {
+            if (e.getSource().equals(theView.bmul)) {
                 sb.append("*");
             }
-            if (e.getSource() == theView.badd) {
+            if (e.getSource().equals(theView.badd)) {
                 sb.append("+");
             }
-            if (e.getSource() == theView.bsub) {
+            if (e.getSource().equals(theView.bsub)) {
                 sb.append("-");
             }
-            if (e.getSource() == theView.bpow) {
+            if (e.getSource().equals(theView.bpow)) {
                 sb.append("^");
             }
-            if (e.getSource() == theView.bclr) {
+            if (e.getSource().equals(theView.bclr)) {
                 sb.delete(0, sb.length());
             }
             theView.setButtonOperands(sb.toString());
